@@ -1,0 +1,423 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #0b0e13;
+    font-family:futuramedium;
+  }
+
+
+
+  @font-face {
+    font-family:futuramedium;
+    src: url(/fonts/futuramedium.ttf);
+}
+
+  /* codigo para hacer un menu responsive*/
+  .navbar{
+    position: absolute;
+    height: 40px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #070707;
+    width: 100%;
+  }
+  .logo{
+    background: url(/img/LOGOW.png) no-repeat 50% 50%;
+    background-size: contain;
+    position: relative;
+    left: 40px;
+    width: 100px;
+    height: 40px;
+    
+   
+    
+  }
+  .menu{
+   
+    position: absolute;
+    right: 20px;
+  }
+  .menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 10px;
+    transition: color 0.3s;
+    text-transform: uppercase;
+    font-family: futuramedium;
+    position: relative;
+    right: 90px;
+  }
+  .menu a:hover{
+    color: #287eff;
+  }
+  .btn{
+    display: none;
+    position: absolute;
+    right: 20px;
+  }
+  .btn:hover > span{
+    background:  #287eff;
+  }
+  .btn span{
+    display: block;
+    margin: 6px;
+    width: 40px;
+    height: 3px;
+    background: rgb(252, 252, 252);
+  }
+
+  /*header*/
+.header{
+    width: 100%;
+    height: 600px;
+    background: url(/img/bg2.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+.bt1{
+    background: #287eff;
+    border: #287eff;
+    font-family: "futuramedium";
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 390px;
+    left:200px;
+    transition: color 0.3s;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bt1:hover{
+    background: #070707;
+    color: #287eff;
+}
+
+.titleh{
+  font-family: "futuramedium";
+  color: white;
+  position: absolute;
+  top: 200px;
+  left:200px;
+  font-size:60px;
+}
+.resaltado{
+  color: #287eff;
+}
+
+/*PRIMER CONTENIDO*/
+.nuestros{
+  text-align:center;
+  color: #f8f9fa;
+  position: relative;
+  left: 398px;
+  top:250px;
+  font-size: 28px;
+  width:500px;
+
+}
+.servicios{
+  color: white;
+  
+}
+
+.caja {
+  float: left;
+  width: 31px;
+  margin: 150px;
+  font-family: "futuramedium";
+  position: relative;
+  left:80px;
+  bottom:300px;
+  
+}
+
+.caja img{
+  width:100px;
+  background: #287eff;
+  float: left;
+  padding:40px;
+  border-radius:30%;
+}
+
+.caja h2{
+  color: aliceblue;
+  font-style: initial;
+  font-size:20px;
+  text-align:center;
+  width:200px;
+  position: relative;
+  right:10px;
+}
+
+/* SEGUNDO CONTENIDO*/
+
+.fondo{
+  float: left;
+  margin: 1px;
+  font-family: "futuramedium";
+  position:relative;
+  bottom:150px;
+}
+
+ .fondo img{
+  width:400px;
+ position:relative;
+ left:60px;
+ opacity:45%;
+}
+
+.fondo h2{
+  color: #d8e1ee;
+  position:absolute;
+  left:170px;
+  bottom:80px;
+}
+
+/* TERCER CONTENIDO*/
+
+.logo2{
+  background: url(/img/LOGOW.png)no-repeat 50% 50%;
+  width:500px;
+  background-size: contain;
+  height: 400px;
+  position: relative;
+  top:700px;
+  left: 50px
+}
+
+.logo2 p{
+  color:white;
+  position: relative;
+  bottom:550px;
+}
+
+.back2 video{
+  position: relative;
+  left:649px;
+  width:700px;
+  bottom:100px;
+}
+
+/* FOOTTEER*/
+.fin{
+  width: 1349px;
+  height:150px;
+  color: white;
+  background: #287eff;
+}
+
+.content{
+  position: absolute;
+  left:500px;
+}
+
+.correo{
+  background: white;
+  border:0px;
+  border-radius: 20px;
+  width:200px;
+  padding:5px;
+}
+
+.botom{
+  background: white;
+  border: 0;
+  border-radius:20px ;
+  width:px;
+  padding:5px;
+}
+
+
+@media screen and (max-width:800px) {
+
+  .navbar{
+    position: absolute;
+    height: 40px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #070707;
+    width: 100%;
+  }
+
+  .menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 10px;
+    transition: color 0.3s;
+    text-transform: uppercase;
+    font-family: futuramedium;
+    position: relative;
+    right: 10px;
+  }
+
+  .titleh{
+    font-family: "futuramedium";
+    color: white;
+    position: absolute;
+    top: 100px;
+    left:200px;
+    font-size:60px;
+  }
+  
+  .bt1{
+    background: #287eff;
+    border: #287eff;
+    font-family: "futuramedium";
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 390px;
+    left:400px;
+    transition: color 0.3s;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.bt1:hover{
+    background: #070707;
+    color: #287eff;
+}
+
+.caja {
+
+  width: 31px;
+  margin: 90px;
+  font-family: "futuramedium";
+  position: relative;
+  left:6px;
+  bottom:300px;
+  
+}
+
+.caja img{
+  width:70px;
+  background: #287eff;
+  display: inline-block;
+  padding:30px;
+  border-radius:30%;
+  position: relative;
+  left:40px;
+  top:50px;
+}
+
+.caja h2{
+  color: aliceblue;
+  font-style: initial;
+  font-size:14px;
+  text-align:center;
+  width:20px;
+  position: relative;
+  left:59px;
+  top:60px;
+}
+
+.nuestros{
+  text-align:center;
+  color: #f8f9fa;
+  position: relative;
+  left: 150px;
+  top:150px;
+  font-size: 28px;
+  width:500px;
+
+}
+
+.content{
+  text-align: center;
+}
+.fondo{
+  float: left;
+  margin: 1px;
+  font-family: "futuramedium";
+  position:relative;
+  bottom:150px;
+}
+
+ .fondo img{
+width:70%;
+ position:relative;
+ left:130px;
+ opacity:45%;
+ top:100px;
+}
+
+.fondo h2{
+  color: #d8e1ee;
+  position:absolute;
+  left:350px;
+  bottom:20px;
+  text-align: center;
+}
+.BODYB{
+  position: relative;
+  right:40px;
+  bottom:30px ;
+}
+
+.logo2{
+  background: url(/img/LOGOW.png)no-repeat 50% 50%;
+  width:50%;
+  background-size: contain;
+  height: 400px;
+  position: relative;
+  top:1130px;
+  left: 200px
+}
+
+.logo2 p{
+  color:white;
+  position: relative;
+  bottom:830px;
+  width:100%;
+  padding:10%;
+}
+
+.back2 video{
+  position: relative;
+  left:40px;
+  width:700px;
+  bottom:100px;
+}
+
+.fin{
+  width: 100%;
+  height:120px;
+  color: white;
+  background: #287eff;
+}
+
+.content{
+  position: absolute;
+  left:200px;
+}
+
+.correo{
+  background: white;
+  border:0px;
+  border-radius: 20px;
+  width:200px;
+  padding:5px;
+}
+
+.botom{
+  background: white;
+  border: 0;
+  border-radius:20px ;
+  width:px;
+  padding:5px;
+}
+
+
+}
+
+ 
+
+
+
