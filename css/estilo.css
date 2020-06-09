@@ -2,14 +2,14 @@ body{
     margin: 0;
     padding: 0;
     background: #0b0e13;
-    font-family:futuramedium;
+    font-family:"futuramedium";
   }
 
 
 
   @font-face {
-    font-family:futuramedium;
-    src: url(fonts/futuramedium.ttf);
+    font-family:"futuramedium";
+    src:url(fonts/futuramedium.ttf);
 }
 
   /* codigo para hacer un menu responsive*/
