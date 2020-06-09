@@ -24,7 +24,7 @@ body{
     width: 100%;
   }
   .logo{
-    background: url(img/LOGOW.png) no-repeat 50% 50%;
+    background: url(./img/LOGOW.png) no-repeat 50% 50%;
     background-size: contain;
     position: relative;
     left: 40px;
