@@ -46,7 +46,7 @@ body{
     margin-left: 10px;
     transition: color 0.3s;
     text-transform: uppercase;
-    font-family: "futuramedium";
+    font-family: 'Bebas Neue', cursive;
     position: relative;
     right: 90px;
   }
@@ -80,7 +80,7 @@ body{
 .bt1{
     background: #287eff;
     border: #287eff;
-    font-family: "futuramedium";
+  font-family: 'Bebas Neue', cursive;
     color: white;
     font-size: 18px;
     position: absolute;
@@ -97,7 +97,7 @@ body{
 }
 
 .titleh{
-  font-family: "futuramedium";
+ font-family: 'Bebas Neue', cursive;
   color: white;
   position: absolute;
   top: 200px;
@@ -128,7 +128,7 @@ body{
   float: left;
   width: 31px;
   margin: 150px;
-  font-family: "futuramedium";
+  font-family: 'Bebas Neue', cursive;
   position: relative;
   left:80px;
   bottom:300px;
@@ -158,7 +158,7 @@ body{
 .fondo{
   float: left;
   margin: 1px;
-  font-family: "futuramedium";
+  font-family: 'Bebas Neue', cursive;
   position:relative;
   bottom:150px;
 }
