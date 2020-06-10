@@ -2,16 +2,16 @@ body{
     margin: 0;
     padding: 0;
     background: #0b0e13;
-    font-family:"futuramedium";
+    font-family: 'Bebas Neue', cursive;
   }
 
 
-
+/*
   @font-face {
     font-family:"futuramedium";
     src:url(fonts/futuramedium.ttf);
 }
-
+*/
   /* codigo para hacer un menu responsive*/
   .navbar{
     position: absolute;
